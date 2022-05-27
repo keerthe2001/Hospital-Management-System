@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* 
+  Note: you can also do this with Tailwind's group-hover. Unfortunately Tailwind CDN version does not include this variant, so you will have to adjust the tailwind.config.js file in your own project.
+  
+  Example with group-hover: https://codesandbox.io/s/tailwind-dropdown-with-group-hover-gm9k9
+   */
